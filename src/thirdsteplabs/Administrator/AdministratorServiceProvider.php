@@ -27,7 +27,7 @@ class AdministratorServiceProvider extends ServiceProvider {
 	{
 		$this->package('thirdsteplabs/administrator');
 
-		//set the locale
+		//Set the locale
 		$this->setLocale();
 
 		//define a constant that the rest of the package can use to conditionally use pieces of Laravel 4.1.x vs. 4.0.x
