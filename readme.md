@@ -8,14 +8,12 @@ Administrator is an administrative interface builder for [Laravel](http://larave
 
 [![Build Status](https://travis-ci.org/Thirdsteplabs/Laravel-Administrator.png?branch=master)](https://travis-ci.org/Thirdsteplabs/Laravel-Administrator)
 
-<img src="https://raw.github.com/Thirdsteplabs/Laravel-Administrator/master/examples/images/overview.jpg" />
-
 ## Composer
 
 To install Administrator as a Composer package to be used with Laravel 4, simply add this to your composer.json:
 
 ```json
-"Thirdsteplabs/administrator": "dev-master"
+"thirdsteplabs/administrator": "dev-master"
 ```
 
 ..and run `composer update`.  Once it's installed, you can register the service provider in `app/config/app.php` in the `providers` array:
